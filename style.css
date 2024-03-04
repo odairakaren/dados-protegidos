@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 40px;
+    justify-content: flex-start;
+    height: calc(100% - 55px);
+    background: #2F2E41;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 30px;
+    width: 1083px;
+}
+
+header img {
+
+    height: 23px;
+    width: 168px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "JetBrains Mono";
+    font-size: 14px;
+    width: 306px;
+    height: 30.05px;
+    color: #E5E5E5;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    width: 1092px;
+    height: 283px;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+
+main h2{
+    font-family: "JetBrains Mono";
+    font-size: 36px;
+}
+
+main h2 span{
+    color: #00BFA6;
+}
+
+main h5{
+    font-family: "Open Sans";
+    color: #7D7987;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    width: 610px;
+}
+
+main h5 span{
+    color: #00BFA6;
+}
+
+.bold{
+    color: #C2C2C2;
+}
+
+.text{
+    height: 268px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: 300;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100vw; 
+    height: 55px;
+    background: #2F2E41;
+    margin-top: 30px;
+}
+
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 100%;
+}
+
+footer h6{
+    font-family: "JetBrains Mono";
+    text-align: center;
+    color: #FFFFFF;
+    width: 462px;
+    height: 28px;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.decoration{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    align-items: left;
+}
+
+.line {
+    border-top: 1px #00BFA6 solid;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
